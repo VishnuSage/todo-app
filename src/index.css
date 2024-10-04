@@ -1,0 +1,50 @@
+body {
+  font-family: 'Lora', serif;
+}
+
+input, select, button {
+  margin-bottom: 10px;
+}
+
+.app-background {
+  background: linear-gradient(to bottom, violet, black); /* Violet to Black gradient */
+  background-attachment: fixed; /* Ensures it stays fixed while scrolling */
+  background-size: cover; /* Ensures it covers the whole viewport */
+  min-height: 100vh;
+  color: white; /* Ensures text is visible on dark backgrounds */
+}
+
+.app-card {
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 20px; /* Increased padding */
+  border-radius: 10px; /* Rounded corners */
+  max-height: 600px; /* Set a max height for the card */
+  overflow-y: auto; /* Enable vertical scrolling */
+}
+
+body.dark-mode .app-card {
+  background-color: rgba(52, 58, 64, 0.9);
+}
+
+.theme-toggle {
+  display: flex;
+  justify-content: flex-end;
+  color: inherit;
+}
+
+h1 {
+  margin: 0; /* Remove margin from heading */
+}
+
+.my-4 {
+  margin-top: 20px; /* Ensure consistent vertical spacing */
+  margin-bottom: 20px; /* Ensure consistent vertical spacing */
+}
+
+.btn {
+  margin-top: 10px; /* Ensure consistent spacing on buttons */
+}
+
+.progress {
+  height: 20px; /* Adjust height for better visibility */
+}
