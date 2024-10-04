@@ -59,6 +59,7 @@ const AddTodo = () => {
         <Form.Group className="mb-2">
           <Form.Control
             type="date"
+            placeholder="Select a due date"
             value={dueDate}
             onChange={(e) => setDueDate(e.target.value)}
           />
